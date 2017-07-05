@@ -1,0 +1,8 @@
+SELECT FistName
+FROM [USER] 
+GROUP BY FistName
+HAVING FistName !='Trinh'
+
+
+SELECT COUNT(*) AS [NUMBER OF READ]
+FROM [READ]
